@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.date = %q{2011-06-01}
   s.description = %q{Install this gem and require 'maxdb' within JRuby to load the driver.}
   s.email = %q{krum.bakalsky@sap.com}
-  s.extra_rdoc_files = ["Manifest.txt", "README.txt", "LICENSE.txt"]
-  s.files = ["Manifest.txt", "Rakefile", "README.txt", "LICENSE.txt", "lib/sapdbc.jar", "lib/jdbc/maxdb.rb"]
+  s.extra_rdoc_files = ["Manifest.txt", "README.md", "LICENSE"]
+  s.files = ["Manifest.txt", "Rakefile", "README.md", "LICENSE", "lib/sapdbc.jar", "lib/jdbc/maxdb.rb"]
   s.homepage = %q{https://github.com/SAP/cloud-jdbc-maxdb-gem}
   s.rdoc_options = ["--main", "README.txt"]
   s.require_paths = ["lib"]
